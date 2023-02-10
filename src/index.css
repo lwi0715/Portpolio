@@ -20,11 +20,11 @@ code {
   --color-orange: #feb546;
 
   /* Font size */
-  --font-large: 48px;
-  --font-medium: 28px;
-  --font-regular: 18px;
-  --font-small: 16px;
-  --font-micro: 14px;
+  --font-xlarge: 3rem;
+  --font-large: 2rem;
+  --font-medium: 1.2rem;
+  --font-regular: 0.8rem;
+  --font-small: 0.5rem;
 
   /* Font weight*/
   --weight-bold: 700;
@@ -52,6 +52,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--color-white);
 }
 
 ul {

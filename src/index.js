@@ -3,13 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { RouterProvider, createBrowserRouter, Router } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import NotFound from "./pages/NotFound/NotFound";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Skills from "./pages/Skills/Skills";
-import Work from "./pages/Work/Work";
 import Contact from "./pages/Contact/Contact";
+import Works from "./pages/Works/Works";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "/about", element: <About /> },
       { path: "/skills", element: <Skills /> },
-      { path: "/works", element: <Work /> },
+      { path: "/works", element: <Works /> },
       { path: "/contact", element: <Contact /> },
     ],
   },
