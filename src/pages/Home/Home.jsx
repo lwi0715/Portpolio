@@ -1,4 +1,5 @@
 import React from "react";
+import ContactBtn from "../../components/ContactBtn/ContactBtn";
 import styles from "./Home.module.css";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <h1 className={styles.name}>이름 소개</h1>
         <h2 className={styles.introduce}>자기소개 간단</h2>
       </div>
+      <ContactBtn />
     </section>
   );
 }

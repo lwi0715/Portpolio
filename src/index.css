@@ -18,6 +18,9 @@ code {
   --color-blue: #73aace;
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
+  --color-ts: #2f74c0;
+  --color-react: #00c6f7;
+  --color-html: #f75421;
 
   /* Font size */
   --font-xlarge: 3rem;
